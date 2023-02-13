@@ -34,7 +34,6 @@ function App() {
      const milliSec  = Date.now() - start;
      const sec = (milliSec-1)/1000
      const rounded = sec.toFixed(1)
-     const convertNumber = parseInt(rounded)
      setFinalRecord(rounded)
      document.querySelector('.finalScore').innerHTML =  
           "GAME OVER, your final time is: " + rounded + " seconds"
